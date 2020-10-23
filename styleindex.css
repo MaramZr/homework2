@@ -1,0 +1,59 @@
+body{
+    background-image:url("hw2.jpg") ;
+
+}
+
+.contient{ 
+overflow: hidden;
+padding: 25px;
+margin: 0 auto;
+}
+
+ ul{
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+}
+a{
+    overflow: hidden;
+    text-decoration: none;
+    color: ghostwhite;
+}
+ ul li {
+    padding: 20px;
+   text-align: center;
+   display: inline;
+   color: ghostwhite;
+   overflow: hidden;
+}
+
+h1 , .box{
+    color: ghostwhite;
+    text-align: center;
+    display: flex;
+    
+}
+h1{
+    font-size:85px;
+    padding-right: 10px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cd{
+    align-items: center;
+	background: #e9eea3;
+	font-size: 35px;
+    height: 100%px;
+    width: auto;
+	border: none;
+	cursor: pointer;
+	position: static;
+    color: #fff;
+    shape-image-threshold: initial;
+}
